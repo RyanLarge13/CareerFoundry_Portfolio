@@ -1026,7 +1026,7 @@ textarea:focus {
     /* work section */
 
     .work-grid-container {
-        -ms-grid-columns: (1fr)[2];
+        -ms-grid-columns: (1fr);
         grid-template-columns: repeat(2, 1fr);
     }
 
