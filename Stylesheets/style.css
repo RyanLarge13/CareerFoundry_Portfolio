@@ -851,3 +851,20 @@ textarea:focus {
         padding: .3em .5em;
     }
 }
+
+@media screen and (max-height: 1000px),
+       screen and (max-width: 900px) {
+    .main-section {
+        padding-top: 4em;
+    }
+
+    .intro-content {
+        margin-top: 10em;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+    .intro-content {
+        margin-top: 0;
+    }
+}
