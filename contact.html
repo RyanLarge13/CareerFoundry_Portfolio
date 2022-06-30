@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CareerFoundry Personal Portfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/FB_IMG_1519453604508.jpg">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="Stylesheets/style.css"> -->
+    <link rel="stylesheet" href="./Stylesheets/style.production.css">
+    <!-- scripts -->
+    <script src="./Javascript/script.js"></script>
+    <script src="https://kit.fontawesome.com/a673862905.js" crossorigin="anonymous"></script>
+
+    <title>Ryan Large</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">Ryan Large</h1>
+        <nav class="nav" role="navigation">
+            <ul role="menubar">
+                <li role="presentation"><a href="index.html" role="menuitem" class="nav-link">Home</a></li>
+                <li role="presentation"><a href="work.html" role="menuitem" class="nav-link">Work</a></li>
+                <li role="presentation"><a href="about.html" role="menuitem" class="nav-link">About Me</a></li>
+                <li role="presentation"><a href="contact.html" role="menuitem" class="nav-link nav-indicate">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contact-main">
+        <!-- This is my contact form with inputs for sending am essage to get in touch -->
+        <label for="form" class="contact-form">Get In Touch</label>
+        <form action="/#" method="post" id="form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="user-email" placeholder="Email" required>
+            <label for="tel">Tel</label>
+            <input type="tel" id="tel" name="telephone" placeholder="Phone Number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            <label for="Message">Message</label>
+            <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Send" id="send">
+        </form>
+        <!-- My brief section listing some of the ways to get in touch with me alternativly -->
+        <div class="contact-info">
+            <a href="mailto: ryanhudsonlarge13@gamil.com" target="_blank">RyanLarge@gmail</a>
+            <a href="tel:7029811370" target="_blank">Click to call!</a>
+            <!-- <button type="submit"><a href="#" target="_blank" id="connect-btn">CONNECT!</a></button> -->
+        </div>
+    </main>
+
+    <footer>
+        <h3>find me on</h3>
+        <div id="social-links-container">
+            <a href="https://www.linkedin.com/in/ryan-large/" title="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/ryan_large13" title="twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/RyanLarge13" target="_blank" title="github"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
