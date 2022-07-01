@@ -23,9 +23,16 @@
 strong {
     background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
     background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     background-clip: text;
     -webkit-background-clip: text;
+    mask-clip: text;
+    -webkit-mask-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 /* begin styling the header section with navigation and navigation items */
@@ -51,9 +58,16 @@ header {
     font-size: 2em;
     background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
     background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     background-clip: text;
     -webkit-background-clip: text;
+    mask-clip: text;
+    -webkit-mask-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .logo-animate {
@@ -110,9 +124,12 @@ ul li::before {
             transform: translateX(-50%) scale(0);
     width: 70%;
     height: 3px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#0052d4), to(#9cecfb));
-    background-image: -o-linear-gradient(left, #0052d4, #9cecfb);
-    background-image: linear-gradient(to right, #0052d4, #9cecfb);
+    background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
+    background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     -webkit-transform-origin: left;
         -ms-transform-origin: left;
             transform-origin: left;
@@ -144,9 +161,12 @@ ul li:hover::before {
             transform: translateX(-50%);
     width: 70%;
     height: 3px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#0052d4), to(#9cecfb));
-    background-image: -o-linear-gradient(left, #0052d4, #9cecfb);
-    background-image: linear-gradient(to right, #0052d4, #9cecfb);
+    background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
+    background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
 }
 /*  */
 
@@ -180,6 +200,7 @@ svg {
     top: 15%;
     width: 600px;
     height: 600px;
+    z-index: -1;
 }
 /* begin styling for svg path elements using animations per instruction */
 #path278 {
@@ -487,8 +508,12 @@ svg {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background-image: -o-linear-gradient(45deg, #0052d4, #9cecfb);
-    background-image: linear-gradient(45deg, #0052d4, #9cecfb);
+    background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
+    background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     top: 50%;
     left: 20%;
     z-index: -1;
@@ -502,9 +527,12 @@ svg {
     height: 250px;
     top: 15%;
     left: 10%;
-    background-image: -webkit-gradient(linear, left top, right top, from(#0052d4), to(#9cecfb));
-    background-image: -o-linear-gradient(left, #0052d4, #9cecfb);
-    background-image: linear-gradient(90deg, #0052d4, #9cecfb);
+    background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
+    background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     -webkit-animation-duration: 2s;
             animation-duration: 2s;
 }
@@ -557,8 +585,12 @@ svg {
         -ms-grid-row-align: center;
         align-self: center;
     padding: 1em 2em;
-    background-image: -o-linear-gradient(45deg, #9cecfb, #0052d4);
-    background-image: linear-gradient(45deg, #9cecfb, #0052d4);
+    background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
+    background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     border-radius: 1em;
     color: #fff;
     -webkit-box-shadow: 0 0 .6em .1em #000;
@@ -604,9 +636,16 @@ footer h3 {
     padding: .5em 0 0 0;
     background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
     background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     background-clip: text;
     -webkit-background-clip: text;
+    mask-clip: text;
+    -webkit-mask-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 #social-links-container a {
@@ -661,6 +700,10 @@ table {
     margin-top: 1em;
     background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
     background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     color: #fff;
     -webkit-box-shadow: 0 0 .6em .1em #000;
             box-shadow: 0 0 .6em .1em #000;
@@ -789,8 +832,12 @@ textarea:focus {
     border-radius: 2em;
     -webkit-box-shadow: 0 0 .6em .1em #000;
             box-shadow: 0 0 .6em .1em #000;
-    background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
-    background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
+            background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     cursor: pointer;
     opacity: .8;
     -webkit-transition: all 250ms ease-in-out;
@@ -846,8 +893,12 @@ textarea:focus {
     border-radius: 2em;
     -webkit-box-shadow: 0 0 .6em .1em #000;
             box-shadow: 0 0 .6em .1em #000;
-    background-image: -o-linear-gradient(45deg, #9cecfb, #0052d4);
-    background-image: linear-gradient(45deg, #9cecfb, #0052d4);
+            background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
+            background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+            background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     -webkit-transition: all 250ms ease-in-out;
     -o-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
@@ -902,9 +953,12 @@ textarea:focus {
             column-gap: 0;
     row-gap: 3.5em;
     text-align: center;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#0052d4), to(#9cecfb));
-    background-image: -o-linear-gradient(#0052d4, #9cecfb);
-    background-image: linear-gradient(#0052d4, #9cecfb);
+    background-image: -o-linear-gradient(355deg, #0052d4, #9cecfb);
+    background-image: linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -ms-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -moz-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-linear-gradient(95deg, #0052d4, #9cecfb);
+    background-image: -webkit-gradient(linear 95deg, #0052d4, #9cecfb);
     padding: 3em 0;
     color: #fff;
     -webkit-box-shadow: 0 0 .6em .1em #000;
@@ -1172,6 +1226,10 @@ textarea:focus {
 
     #send {
         padding: .3em .5em;
+    }
+
+    #social-links-container i {
+        padding: .3em .2em;
     }
 }
 
