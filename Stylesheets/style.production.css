@@ -1062,7 +1062,7 @@ textarea:focus {
     
     /* contact section */
     #contact-main {
-        padding: 8% 0;
+        padding: 30% 0 10% 0;
     }
 
     textarea {
@@ -1146,6 +1146,7 @@ textarea:focus {
     }
 
     .main-section {
+        transform: translateY(2em);
         padding-top: 4em;
         padding-bottom: 2em;
     }
@@ -1191,7 +1192,12 @@ textarea:focus {
 
     /* about ssection */
     #about-main {
-        padding-top: 20%;
+        padding-top: 40%;
+    }
+
+    table {
+        margin-top: 4em;
+        transform: perspective(25em) rotateX(20deg);
     }
 
     th {
@@ -1205,7 +1211,8 @@ textarea:focus {
 
     /* contact section */
     #contact-main {
-        padding-bottom: 15%;
+        padding-top: 40%;
+        padding-bottom: 25%;
     }
 
     textarea {
