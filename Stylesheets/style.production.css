@@ -1158,7 +1158,9 @@ textarea:focus {
 
     .bubble:nth-child(2) {
         top: 9%;
-        left: 48%;
+        left: 50%;
+        width: 175px;
+        height: 175px;
     }
 
     .image-of-me {
@@ -1167,7 +1169,11 @@ textarea:focus {
         height: 200px;
         border-radius: 50%;
         margin-left: 2em;
-        margin-bottom: 5em;
+        margin-bottom: 3em;
+    }
+
+    svg {
+        top: 25%;
     }
     
     .intro-content {
