@@ -1103,7 +1103,7 @@ textarea:focus {
     }
 
     svg {
-        top: 30%;
+        top: 35%;
     }
 
     header {
@@ -1146,9 +1146,9 @@ textarea:focus {
     }
 
     .main-section {
-        transform: translateY(2em);
-        padding-top: 4em;
-        padding-bottom: 2em;
+        /* padding-top: 8em;
+        padding-bottom: 8em; */
+        height: fit-content;
     }
 
     .bubble {
@@ -1158,7 +1158,7 @@ textarea:focus {
 
     .bubble:nth-child(2) {
         top: 9%;
-        left: 50%;
+        left: 48%;
     }
 
     .image-of-me {
@@ -1192,7 +1192,7 @@ textarea:focus {
 
     /* about ssection */
     #about-main {
-        padding-top: 40%;
+        padding-top: 20%;
     }
 
     table {
@@ -1211,8 +1211,8 @@ textarea:focus {
 
     /* contact section */
     #contact-main {
-        padding-top: 40%;
-        padding-bottom: 25%;
+        padding-top: 20%;
+        padding-bottom: 20%;
     }
 
     textarea {
