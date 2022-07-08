@@ -16,7 +16,7 @@
     <!-- <link rel="stylesheet" href="Stylesheets/style.css"> -->
     <link rel="stylesheet" href="./Stylesheets/style.production.css">
     <!-- scripts -->
-    <script src="./Javascript/script.js"></script>
+    <script defer src="./Javascript/script.js"></script>
     <script src="https://kit.fontawesome.com/a673862905.js" crossorigin="anonymous"></script>
 
     <title>Contact Ryan Large</title>
@@ -36,13 +36,15 @@
     </header>
 
     <main id="contact-main">
-        <!-- This is my contact form with inputs for sending am essage to get in touch -->
+        <!-- This is my contact form with inputs for sending am message to get in touch -->
         <h1>Get In Touch</h1>
         <form action="/#" method="post" id="form">
             <label for="email">Email</label>
             <input type="email" id="email" name="user-email" placeholder="Email" required>
+            <div class="error-message-email">Not valid</div>
             <label for="tel">Tel</label>
             <input type="tel" id="tel" name="telephone" placeholder="Phone Number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            <div class="error-message-tel">Not valid</div>
             <label for="message">Message</label>
             <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
             <input type="submit" value="Send" id="send">
